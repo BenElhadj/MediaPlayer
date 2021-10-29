@@ -6,6 +6,11 @@ public class ModelSong {
 
     String songTitle, songArtist, songDuration;
     Uri songUri;
+    Uri songCover;
+
+    public Uri getSongCover() { return songCover; }
+
+    public void setSongCover(Uri songCover) { this.songCover = songCover; }
 
     public String getSongTitle() { return songTitle; }
 
